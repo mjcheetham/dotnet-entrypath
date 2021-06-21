@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>net5.0;netcoreapp3.1;net461;net472</TargetFrameworks>
+    <DefineConstants Condition="'$(TargetFramework)'=='net461'">$(DefineConstants);NETFX461</DefineConstants>
+  </PropertyGroup>
+
+</Project>
